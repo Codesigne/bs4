@@ -6,7 +6,7 @@
   "scripts": {
 
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass src/scss/app.scss public/css/app.css -w"
+    "sass": "node-sass src/scss/app.scss public/css/app.css --source-map true --source-map-embed true  -w"
   },
   "keywords": [],
   "author": "",
